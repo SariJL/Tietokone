@@ -34,7 +34,6 @@ public class Main {
 
   public Tietokone(String prosessori, int ramMuisti, int kovalevynKoko, String emolevynMalli)
   {
-    //THIS asetetaan private-juttuihin jotka aiemmin määritelty (luodaan tietokone)
     this.prosessori = prosessori;
     this.ramMuisti = ramMuisti;
     this.kovalevynKoko = kovalevynKoko;
