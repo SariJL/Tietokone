@@ -73,6 +73,7 @@ public class Main {
   public void tulostaNaytolle(String teksti) {
     System.out.println(teksti);
   }
+  //Tarkistetaan mahtuuko tiedoston tallentaa koneelle
    public boolean mahtuukoLevylle(int asennettavanTiedostonKoko) {
 	  if(asennettavanTiedostonKoko > (this.kovalevynKoko - this.kovalevyaKaytetty))
 	  {
