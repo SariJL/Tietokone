@@ -73,3 +73,15 @@ public class Main {
   public void tulostaNaytolle(String teksti) {
     System.out.println(teksti);
   }
+   public boolean mahtuukoLevylle(int asennettavanTiedostonKoko) {
+	  if(asennettavanTiedostonKoko > (this.kovalevynKoko - this.kovalevyaKaytetty))
+	  {
+		  return false;
+	  }
+	  else
+		  {
+		  return true;
+		  }
+  		}
+  }
+
